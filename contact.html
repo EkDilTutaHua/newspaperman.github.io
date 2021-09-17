@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Contact me</title>
+
+    <style>
+        .container {
+            display: none;
+            cursor: pointer;
+        }
+
+        .bar1,
+        .bar2,
+        .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: rgb(161, 153, 153);
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+        }
+
+        .change .bar2 {
+            opacity: 0;
+        }
+
+        .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+        }
+    </style>
+
+</head>
+<body>
+    
+
+    <header>
+        <div>
+            <nav>
+
+                <div class="container" id="responsive-logo" style="margin-top: 10px;">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+
+                <div style="position: absolute; top: 20px; left: 10px;">SelfLearned_Calligrapher™</div>
+
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+<br><br><br><br>
+<h1 id="calligraphy">
+    Contact me
+</h1>
+
+<br><br><br><br>
+<div style="background-color: rgba(32, 24, 24, 0.5); border-radius: 15px;">
+
+<form method="POST" action="mailto:ramavtardubey952@gmail.com" style="margin-left: 34px; padding: 10px 10px 10px 10px;">
+ Your Name <input type="text">
+ <br><br>       
+ Message : <br><br> 
+    <Textarea style="width: 300px;">Type Your Message Here </Textarea>
+<br><br><br>
+<input type="submit" value="Send Mail">
+</form>
+</div>
+<h1 style="padding: 10px 10px 10px 10px;">Notice : This feature is not working right now. You can alternatively mail me to ramavtardubey952@gmail.com or click here to email me your message : <a href="mailto:ramavtardubey952@gmail.com">Mail me</a> Thank you! </h1>
+</body>
+</html>
